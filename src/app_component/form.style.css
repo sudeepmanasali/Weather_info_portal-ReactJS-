@@ -1,0 +1,42 @@
+form{
+    margin-top: 3rem;
+}
+
+form input[name="city"],
+form input[name="country"]{
+  
+   
+
+    border-radius: 0;
+    border:none;
+    border-bottom:2px solid lightblue;
+}
+
+form input:focus{
+    box-shadow:none !important;
+    background-color:transparent;
+}
+
+.card{
+    background:transparent;
+    
+
+    color:white;
+}
+
+
+
+@media screen and (max-width:786px){
+    form input[name="city"],
+form input[name="country"]{
+  
+   
+
+    border-radius: 0;
+    border:none;
+    border-bottom:2px solid lightblue;
+    margin-top:10px;
+    margin-bottom:10px;
+
+}
+}
